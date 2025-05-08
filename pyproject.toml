@@ -1,0 +1,25 @@
+[project]
+name = "mochow-mcp-server"
+version = "1.0.1"
+description = "MCP server for Mochow vector database"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name="caoshili", email="caoshili@baidu.com" }
+]
+license = "Apache-2.0"
+dependencies = [
+    "mcp[cli]>=1.1.2",
+    "pymochow>=2.2.7",
+    "dotenv>=0.9.9",
+]
+
+[project.scripts]
+mochow-mcp-server = "mochow_mcp_server.server:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mochow_mcp_server"]

@@ -2,6 +2,10 @@
 
 本代码仓库包含一个 MCP 服务器，它提供对[百度云向量数据库](https://cloud.baidu.com/doc/VDB/index.html)功能的访问。
 
+<a href="https://glama.ai/mcp/servers/@baidu/mochow-mcp-server-python">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@baidu/mochow-mcp-server-python/badge" alt="Baidu Vector Database Server MCP server" />
+</a>
+
 ## 前提条件
 
 在使用百度云向量数据库MCP Server之前，请确保你具备以下条件：
